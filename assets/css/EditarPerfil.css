@@ -1,0 +1,543 @@
+body {
+    overflow: auto;
+}
+
+.Guia {
+    flex-wrap: wrap;
+}
+
+.na {
+    position: absolute;
+    width: 557px;
+    height: 96px;
+    left: 400px;
+    top: 230px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #060606;
+}
+
+.usu {
+    position: absolute;
+    width: 557px;
+    height: 96px;
+    left: 400px;
+    top: 340px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #060606;
+}
+
+.cor {
+    position: absolute;
+    width: 557px;
+    height: 96px;
+    left: 400px;
+    top: 440px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #060606;
+}
+
+
+
+.image {
+    position: absolute;
+    width: 557px;
+    height: 96px;
+    left: 399px;
+    top: 115px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #060606;
+}
+
+.nombre {
+    position: absolute;
+    width: 557px;
+    height: 96px;
+    left: 447px;
+    top: 214px;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #060606;
+}
+
+.usuario {
+    position: absolute;
+    width: 557px;
+    height: 96px;
+    left: 447px;
+    top: 314px;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #060606;
+}
+
+.correo {
+    position: absolute;
+    width: 557px;
+    height: 96px;
+    left: 447px;
+    top: 414px;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #060606;
+}
+
+.name {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 457px;
+    height: 76px;
+    left: 111px;
+    top: 1px;
+
+    background: #FFFFFF;
+    border: 1px solid #556061;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 29px;
+}
+.name:hover {
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter: alpha (opacity=50);
+}
+.user {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 457px;
+    height: 76px;
+    left: 111px;
+    top: 1px;
+
+    background: #FFFFFF;
+    border: 1px solid #556061;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 29px;
+}
+.user:hover {
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter: alpha (opacity=50);
+}
+
+.cr {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 457px;
+    height: 76px;
+    left: 111px;
+    top: 1px;
+
+    background: #FFFFFF;
+    border: 1px solid #556061;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 29px;
+}
+.cr:hover {
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter: alpha (opacity=50);
+}
+.guardar {
+    position: absolute;
+    width: 357px;
+    height: 81px;
+    left: 553px;
+    top: 568px;
+
+    filter: drop-shadow(0px 1px 3px #556061);
+}
+
+.guardar:hover {
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter: alpha (opacity=50);
+}
+
+.escoger {
+    position: absolute;
+    width: 357px;
+    height: 81px;
+    left: 653px;
+    top: 128px;
+
+    filter: drop-shadow(0px 1px 3px #556061);
+}
+
+.escoger:hover {
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter: alpha (opacity=50);
+}
+
+.tamaño {
+    position: absolute;
+    width: 315px;
+    height: 10px;
+    left: 696px;
+    top: 185px;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 18px;
+
+    color: #748283;
+}
+
+.img1 {
+    position: absolute;
+    width: 1921.01px;
+    height: 0px;
+    left: 0px;
+    top: 100px;
+
+    border: 4px solid #D9D9D9;
+}
+
+
+.img4 {
+    /* luditsoft */
+    position: absolute;
+    width: 369px;
+    height: 78px;
+    left: 63px;
+    top: 30px;
+    font-family: 'Josefin Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    color: #1E2FC6;
+}
+
+.perro {
+    /* circle-user-solid 1 */
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 1850px;
+    top: 22px;
+}
+
+.perro:hover {
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter: alpha (opacity=50);
+}
+
+.pc {
+    /* Vector */
+    position: absolute;
+    left: 20px;
+    /* right: 0.06%; */
+    top: 200px;
+    bottom: 0.53%;
+    /* background: #b99987; */
+    background-blend-mode: multiply;
+}
+
+.rayo {
+    /* bolt-solid 1 */
+    position: absolute;
+    width: 69px;
+    height: 57px;
+    left: 20px;
+    top: 350px;
+    /* background: #cbccd3; */
+}
+
+.flecha {
+    position: absolute;
+    width: 29px;
+    height: 31px;
+    left: 401px;
+    top: 133px;
+}
+
+.cuen {
+    position: absolute;
+    width: 557px;
+    height: 96px;
+    left: 290px;
+    top: 86px;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #060606;
+
+}
+
+.cues {
+    position: absolute;
+    left: 150px;
+    /* right: 0.06%; */
+    top: 340px;
+    bottom: 83.51%;
+
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 39px;
+    color: #1E2FC6;
+}
+
+.apren {
+    position: absolute;
+    left: 150px;
+    /* right: 0.06%; */
+    top: 180px;
+    bottom: 83.51%;
+
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 39px;
+    color: #1E2FC6;
+}
+
+.cocodrile {
+    position: absolute;
+    width: 279px;
+    height: 196px;
+    left: 594px;
+    top: 250px;
+    /* border-radius: 52px; */
+}
+
+.linea {
+    position: absolute;
+    width: 1520.04px;
+    height: 0px;
+    left: 399.98px;
+    top: 480px;
+
+    border: 6px solid #D9D9D9;
+}
+
+.Rectan {
+    /* Rectangle 11 */
+
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 569px;
+    height: 600px;
+    left: 1200px;
+    top: 180px;
+}
+
+.dog {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 1250px;
+    top: 200px;
+}
+
+.dog:hover {
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter: alpha (opacity=50);
+}
+
+.Deshabilitar {
+    position: absolute;
+    width: 353px;
+    height: 70px;
+    left: 1308px;
+    top: 661px;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: #FF0303;
+}
+
+.Deshabilitar:hover {
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter: alpha (opacity=50);
+}
+
+.db {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 457px;
+    height: 76px;
+    left: 811px;
+    top: 40px;
+
+    background: #FFFFFF;
+    border: 1px solid #556061;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 29px;
+    background: #D9D9D9;
+    border: 1px solid #8EA0A2;
+    border-radius: 24px;
+}
+.db:hover {
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter: alpha (opacity=50);
+}
+
+.db2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 457px;
+    height: 76px;
+    left: 811px;
+    top: 150px;
+
+    background: #FFFFFF;
+    border: 1px solid #556061;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 29px;
+
+}
+.db2:hover {
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter: alpha (opacity=50);
+}
+.db3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 457px;
+    height: 76px;
+    left: 811px;
+    top: 250px;
+
+    background: #FFFFFF;
+    border: 1px solid #556061;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 29px;
+}
+.db3:hover {
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter: alpha (opacity=50);
+}
+.Usu {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 1320px;
+    top: 200px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px;
+
+    color: #000000;
+}
+.Usu{
+    position: absolute;
+    width: 557px;
+    height: 96px;
+    left: 1308px;
+    top: 190px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #060606;
+}
+.Cue{
+    position: absolute;
+    width: 557px;
+    height: 96px;
+    left: 1270px;
+    top: 290px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #060606;
+}
+.Cont{
+    position: absolute;
+    width: 557px;
+    height: 96px;
+    left: 1270px;
+    top: 390px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #060606;
+}
+.Ayud{
+    position: absolute;
+    width: 557px;
+    height: 96px;
+    left: 1270px;
+    top: 490px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #060606;
+}
